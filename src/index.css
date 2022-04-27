@@ -1,0 +1,143 @@
+.navbar_container {
+    background-color: cornflowerblue;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.navbar_container a{
+    text-decoration: none;
+}
+
+
+.weather_widget_wrapper {
+    padding: 10px;
+    background-color: #F5F5F5;
+    /*height: auto;*/
+}
+
+.weather_details {
+    /*border:2px solid red;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.crypto_widget_wrapper {
+    /*border: 2px solid cornflowerblue;*/
+    margin: 20px auto;
+    background-color: #F0F0F0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.news_widgets_container {
+    padding: 10px;
+}
+
+.news_widgets_wrapper {
+    padding: 10px;
+    display: flex;
+}
+
+.news_widget_container {
+    border: 2px solid cornflowerblue;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 10px;
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+.news_widget_container img {
+    width: 100%;
+}
+
+.fiveCrypto_widget_container {
+    width: 50%;
+}
+
+
+/*MY DASHBOARD*/
+.myDashBoard_page_container nav {
+    background-color: #F5F5F5;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.myDashBoard_widgets_container {
+    /*border: 2px solid green;*/
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*Choose your widgets page*/
+.widgetsList_page-container {
+    /*border: 2px solid green;*/
+    padding: 20px 10px;
+}
+
+.widgetsList_page-container button {
+    margin-top: 20px;
+    width: 100px;
+}
+
+/*FORMS*/
+form {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 40px auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+form input, label, button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+form button {
+    width: 20%
+}
+
+.no_widgets_message {
+    background-color: #F5F5F5;
+    /*text-align: center;*/
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto
+}
+
+.covid_widget_container{
+    /*background-color: #F5F5F5 ;*/
+    margin: 20px;
+    background-color: cornflowerblue ;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+}
+
+.unitInfos_wrapper{
+    display: flex;
+
+}
+.covid_widget_container .unitInfo{
+    background-color: black;
+    /*border: 2px solid red;*/
+    text-align: center;
+    width: 100px;
+    margin-top: 10px;
+    margin-left:10px;
+    padding:20px 20px;
+    border-radius: 10px;
+
+}
